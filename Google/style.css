@@ -1,3 +1,15 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, "sans serif";
+    font-size: 100%;
+    padding: 0;
+}
+
 #hplogo {
     padding-top: 102px;
     margin: auto 0 25px;
@@ -24,6 +36,10 @@
     border-width: 1px;
 }
 
+#searchBox input {
+    width: 90%;
+}
+
 #content {
     width: 500px;
     text-align: center;
@@ -40,7 +56,95 @@
 }
 
 header {
-    margin-top: 20px;
+    margin-top: 15px;
     height: 30px;
     width: 100%;
+}
+
+footer {
+    border-top: 1px solid #E4E4E4;
+    background-color: #F2F2F2;
+    bottom: 0;
+    height: 40px;
+    margin: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    clear: both;
+}
+
+#buttons input {
+    color: #141424;
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-color: #D8D8D8;
+    border-width: 1px;
+    border-radius: 1px;
+    font: bold 11px arial;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.hbox { 
+    margin: 8px 8px;
+    font-size: 13px;
+}
+
+.hbox a {
+    text-decoration: none;
+    color: #444;
+}
+
+.fbox {
+    position: relative;
+    top: 13px;
+    
+    margin: 0 15px;
+    font-size: 13px;
+}
+
+.fbox a {
+    text-decoration: none;
+    color: #666;
+}
+
+.fbox a:hover {
+    text-decoration: underline;
+}
+
+.fbox a:active {
+    color: #e60;
+}
+
+#signin {
+    color: #fff;
+    font: bold 14px arial;
+    text-decoration: none;
+    
+    border-radius: 2px;
+    float: right;
+    
+    margin-right: 10px;
+    
+    height: 30px;
+    width: 71px;
+    
+    display: block;
+    background-color: #4485F5;
+}
+
+#signin span {
+    position: relative;
+    top: 8px;
+    left: 10px;
 }
