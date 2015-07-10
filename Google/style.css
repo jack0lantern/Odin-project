@@ -105,9 +105,13 @@ footer {
     color: #444;
 }
 
+.hbox a:hover {
+    text-decoration: underline;
+}
+
 .fbox {
     position: relative;
-    top: 13px;
+    top: 12px;
     
     margin: 0 15px;
     font-size: 13px;
